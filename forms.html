@@ -35,8 +35,68 @@
       <button>Search Google</button>
     </form>
     <form action="https://youtube.com/results">
-      <input type="text" name="search_query" placeholder="Enter text"/>
+      <input type="text" name="search_query" placeholder="Enter text" />
       <button>Search Youtube</button>
+    </form>
+
+    <h2>More Inputs</h2>
+    <form action="/birds">
+      <input type="checkbox" name="agree_tos" id="agree" />
+      <label for="agree">I agree to everything</label>
+      <p>
+        <input type="radio" name="size" id="small" value="small" checked />
+        <label for="small">Small</label>
+        <input type="radio" name="size" id="medium" value="medium" />
+        <label for="medium">Medium</label>
+        <input type="radio" name="size" id="large" value="large" />
+        <label for="large">Large</label>
+        <button>Submit</button>
+      </p>
+      <p>
+        <label for="meal">Select a meal</label>
+        <select name="meal" id="meal">
+          <option value="">--Please choose an option--</option>
+          <option value="fish">Fish</option>
+          <option value="chicken">Chicken</option>
+          <option value="salad">Salad</option>
+          <option value="pizza">Pizza</option>
+          <option value="pasta">Pasta</option>
+        </select>
+      </p>
+      <p>
+        <label for="volume">Adjust volume:</label>
+        <input type="range" id="volume" min="0" max="10" name="volume" />
+      </p>
+      <p>
+        <label for="answer_par">Requests</label>
+        <br />
+        <textarea
+          name="answer_par"
+          id="answer_par"
+          placeholder="Type something here"
+          rows="10"
+          cols="40"
+        ></textarea>
+      </p>
+      <button>Submit</button>
+    </form>
+
+    <h2>Validation demo</h2>
+    <form action="/dummy">
+      <label for="first">Enter first name</label>
+      <input type="text" name="first" id="first" required />
+      <p>
+        <label for="username">Enter username</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          minlength="5"
+          maxlength="20"
+          required
+        />
+      </p>
+      <button>Submit</button>
     </form>
   </body>
 </html>
