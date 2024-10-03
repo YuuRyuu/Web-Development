@@ -1,13 +1,12 @@
-h2 {
-  color: white;
-  background-color: rgb(86,128,191);
-}
-
-button {
-  color: magenta;
-  background-color: cyan;
+h1{
+    text-align: center;
+    font-weight: 700;
+    text-decoration: underline;
+    letter-spacing: 10px;
+    font-size: 80px;
+    font-family: monospace;
 }
 
 p {
-  color: olive;
+    line-height: normal;
 }
