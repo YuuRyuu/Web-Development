@@ -29,6 +29,8 @@ span {
 
 .post a{
     color: #003049;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 footer a {
@@ -41,4 +43,26 @@ h2 + button{
 
 footer > a{
     color: #a8dadc;
+}
+
+input[type="password"]{
+    color: #669bbc;
+}
+
+.post a:hover{
+  color: #669bbc;
+  text-decoration: underline;
+}
+
+button:hover{
+  background-color: #e63946;
+  color: #edede9;
+}
+
+.post button:active{
+  background-color: #02c39a;
+}
+
+.post:nth-of-type(2n-1){
+  background-color: #dfe8dc;
 }
