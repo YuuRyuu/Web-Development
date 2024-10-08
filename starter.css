@@ -66,3 +66,8 @@ button:hover{
 .post:nth-of-type(2n-1){
   background-color: #dfe8dc;
 }
+
+h2::first-letter{
+  font-size: 30px;
+  color: #c1121f;
+}
