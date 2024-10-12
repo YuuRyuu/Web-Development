@@ -1,28 +1,61 @@
-h1{
-    font-size: 1.8em;
-    border: 3px solid black;
-    text-align: center;
-    font-weight: lighter;
-    font-family: monospace;
-    background-color: #a2d2ff;
-    color: #023047;
-    width: 300px;
-    padding: 0.7em;
-    margin: 20px auto;
+h1 {
+  font-size: 1.8em;
+  border: 3px solid black;
+  text-align: center;
+  font-weight: lighter;
+  font-family: monospace;
+  background-color: #a2d2ff;
+  color: #023047;
+  width: 300px;
+  padding: 0.7em;
+  margin: 20px auto;
 }
 
-h1:nth-of-type(2n){
-    background-color: #cdb4db;
+h1:nth-of-type(2n) {
+  background-color: #cdb4db;
 }
-h1:nth-of-type(3n){
-    background-color: #ffc8dd;
+
+h1:nth-of-type(3n) {
+  background-color: #ffc8dd;
 }
-h1:nth-of-type(4n){
-    background-color: #ffafcc;
+
+h1:nth-of-type(4n) {
+  background-color: #ffafcc;
 }
-h1:nth-of-type(5n){
-    background-color: #bde0fe;
+
+h1:nth-of-type(5n) {
+  background-color: #bde0fe;
 }
-section:first-of-type h1:nth-of-type(1){
-    transform: rotate(50deg);
+
+section:first-of-type h1:nth-of-type(1) {
+  /*  transform-origin: bottom right; */
+  transform: rotate(50deg);
+}
+
+section:first-of-type h1:nth-of-type(2) {
+  transform: scale(1.5);
+}
+
+section:first-of-type h1:nth-of-type(3) {
+  transform: translateX(50%);
+}
+
+section:first-of-type h1:nth-of-type(4) {
+  transform: translate(-200px, 100px);
+}
+
+section:nth-of-type(2) h1:nth-of-type(1) {
+  transform: skew(30deg);
+}
+
+section:nth-of-type(2) h1:nth-of-type(2) {
+  transform: skew(30deg, 10deg);
+}
+
+section:nth-of-type(2) h1:nth-of-type(3){
+    transform: translateX(200px) scale(0.5);
+}
+
+section:nth-of-type(2) h1:nth-of-type(4){
+    transform: rotate(180deg) translateX(-300px) scaleY(1.5);
 }
