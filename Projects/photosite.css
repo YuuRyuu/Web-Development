@@ -1,0 +1,27 @@
+img {
+  width: 30%;
+  /* height: 50rem; */
+  margin: calc(10% / 7);
+  object-fit: fill;
+  filter: grayscale(100%);
+  border-radius: 1em;
+  transition: all 0.5s ease;
+}
+
+img:hover {
+  filter: grayscale(0%);
+  transform: translateY(-0.5em);
+  box-shadow: 0em 1em 0.5em -0.4em #8ecae6;
+  cursor: pointer;
+}
+
+nav{
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10% / 7);
+    padding: 1.2em 0;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+}
