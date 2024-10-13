@@ -1,55 +1,57 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-main{
-    width: 80%;
-    height: 500px;
-    margin: 0 auto;
-    background-color: #003049;
-    border: 5px solid #003049;
-    display: flex;
+main {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #003049;
+  border: 5px solid #003049;
+  display: flex;
 }
 
-h1, h2 {
-    text-align: center;
-    text-transform: uppercase;
+h1,
+h2 {
+  text-align: center;
+  text-transform: uppercase;
 }
 
 #container {
-    background-color: #003049;
-    width: 90%;
-    height: 500px;
-    margin: 0 auto;
-    border: 5px solid #003049;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    /* align-content is only used when flex-wrap is used. Its to to move all the wrapped content to a certain position inside the container. */
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* align-content is only used when flex-wrap is used. Its to to move all the wrapped content to a certain position inside the container. */
 }
 
 #container div {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 div:nth-child(3) {
-    align-self: flex-start;
+  align-self: flex-start;
 }
 
-div:nth-child(1), div:nth-child(5) {
-    align-self: flex-end;
+div:nth-child(1),
+div:nth-child(5) {
+  align-self: flex-end;
 }
 
-main .sidebar{
-    background-color: #6930c3;
-    border: 2px solid white;
-    flex: 1 2 250px;
+main .sidebar {
+  background-color: #6930c3;
+  border: 2px solid white;
+  flex: 1 2 250px;
 }
 
-main .maincontent{
-    background-color: #80ffdb;
-    border: 2px solid white;
-    flex: 1 1 600px;
+main .maincontent {
+  background-color: #80ffdb;
+  border: 2px solid white;
+  flex: 1 1 600px;
 }
