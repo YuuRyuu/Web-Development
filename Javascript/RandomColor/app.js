@@ -13,8 +13,3 @@ const randomColor = () => {
     const b = Math.floor(Math.random() * 256);
     return `rgb(${r}, ${g}, ${b})`;
 }
-
-const inp = document.querySelector("input");
-inp.addEventListener("keydown", function (e) {
-    console.log(e.key);
-})
